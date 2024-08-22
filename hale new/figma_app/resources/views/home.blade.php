@@ -3,7 +3,7 @@
 @section('content')
 
 
-<sectIon>
+
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" style="height: 80vh; position: relative; z-index: 2;">
         <!-- Carousel Indicators -->
         <div class="carousel-indicators-container">
@@ -75,7 +75,7 @@
             <span class="visually-hidden">Next</span>
         </button>
     </div>
-</sectIon>
+
 
 <section class="mt-5 my-5">
      
@@ -115,7 +115,7 @@
                     <div class="carousel-item active">
                         <div class="row justify-content-center align-items-center g-5">
                             <div class="col-8 col-sm-6 col-md-4 col-lg-2">
-                                <div class="card custom-card-height w-100 mx-auto">
+                                <div class="card custom-card-height custom-card-width mx-auto">
                                     <div class="circle">
                                         <img src="{{ asset('images/1.jpg') }}" class="img-fluid rounded-circle" alt="Product Image 1">
                                     </div>
@@ -123,7 +123,7 @@
                                 </div>
                             </div>
                             <div class="col-8 col-sm-6 col-md-4 col-lg-2">
-                                <div class="card custom-card-height w-100 mx-auto">
+                                <div class="card custom-card-height custom-card-width mx-auto">
                                     <div class="circle">
                                         <img src="{{ asset('images/2.webp') }}" class="img-fluid rounded-circle" alt="Product Image 2">
                                     </div>
@@ -131,7 +131,7 @@
                                 </div>
                             </div>
                             <div class="col-8 col-sm-6 col-md-4 col-lg-2">
-                                <div class="card custom-card-height w-100 mx-auto">
+                                <div class="card custom-card-height custom-card-width mx-auto">
                                     <div class="circle">
                                         <img src="{{ asset('images/cp.png') }}" class="img-fluid rounded-circle" alt="Product Image 3">
                                     </div>
@@ -139,7 +139,7 @@
                                 </div>
                             </div>
                             <div class="col-8 col-sm-6 col-md-4 col-lg-2">
-                                <div class="card custom-card-height w-100 mx-auto">
+                                <div class="card custom-card-height custom-card-width mx-auto">
                                     <div class="circle">
                                         <img src="{{ asset('images/1.jpg') }}" class="img-fluid rounded-circle" alt="Product Image 4">
                                     </div>
@@ -151,7 +151,7 @@
                     <div class="carousel-item">
                         <div class="row justify-content-center align-items-center g-5">
                             <div class="col-8 col-sm-6 col-md-4 col-lg-2">
-                                <div class="card custom-card-height w-100 mx-auto">
+                                <div class="card custom-card-height custom-card-width mx-auto">
                                     <div class="circle">
                                         <img src="{{ asset('images/2.webp') }}" class="img-fluid rounded-circle" alt="Product Image 5">
                                     </div>
@@ -159,7 +159,7 @@
                                 </div>
                             </div>
                             <div class="col-8 col-sm-6 col-md-4 col-lg-2">
-                                <div class="card custom-card-height w-100 mx-auto">
+                                <div class="card custom-card-height custom-card-width mx-auto">
                                     <div class="circle">
                                         <img src="{{ asset('images/cp.png') }}" class="img-fluid rounded-circle" alt="Product Image 6">
                                     </div>
@@ -167,7 +167,7 @@
                                 </div>
                             </div>
                             <div class="col-8 col-sm-6 col-md-4 col-lg-2">
-                                <div class="card custom-card-height w-100 mx-auto">
+                                <div class="card custom-card-height custom-card-width mx-auto">
                                     <div class="circle">
                                         <img src="{{ asset('images/1.jpg') }}" class="img-fluid rounded-circle" alt="Product Image 7">
                                     </div>
@@ -175,7 +175,7 @@
                                 </div>
                             </div>
                             <div class="col-8 col-sm-6 col-md-4 col-lg-2">
-                                <div class="card custom-card-height w-100 mx-auto">
+                                <div class="card custom-card-height custom-card-width mx-auto">
                                     <div class="circle">
                                         <img src="{{ asset('images/2.webp') }}" class="img-fluid rounded-circle" alt="Product Image 8">
                                     </div>
@@ -187,10 +187,10 @@
                     <!-- Add more carousel-items as needed -->
                 </div>
 
-                <button class="btn btn-primary position-absolute top-50 start-0 translate-middle-y" type="button" data-bs-target="#product-carousel" data-bs-slide="prev">
+                <button class="btn btn-custom-grey position-absolute top-50 start-0 translate-middle-y" type="button" data-bs-target="#product-carousel" data-bs-slide="prev">
                     &#10094;
                 </button>
-                <button class="btn btn-primary position-absolute top-50 end-0 translate-middle-y" type="button" data-bs-target="#product-carousel" data-bs-slide="next">
+                <button class="btn btn-custom-grey position-absolute top-50 end-0 translate-middle-y" type="button" data-bs-target="#product-carousel" data-bs-slide="next">
                     &#10095;
                 </button>
             </div>
@@ -269,10 +269,10 @@
           </div>
           <!-- Add more carousel-item blocks as needed -->
         </div>
-        <button class="btn btn-primary position-absolute top-50 start-0 translate-middle-y" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+        <button class="btn btn-custom-grey position-absolute top-50 start-0 translate-middle-y" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
           &#10094; <!-- Left arrow -->
         </button>
-        <button class="btn btn-primary position-absolute top-50 end-0 translate-middle-y" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+        <button class="btn btn-custom-grey position-absolute top-50 end-0 translate-middle-y" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
           &#10095; <!-- Right arrow -->
         </button>
       </div>
@@ -292,12 +292,12 @@
 
 
 <section>
-<div class="container text-center my-5">
+<div class="container text-center mt-5 my-5">
     <h6 class="text-muted text-center">certificate</h6>
     <h3 class="mb-4">Our Certification</h3>
     <div class="row">
         <div class="col-md-4 mb-4">
-            <div class="certificate-card h-100 shadow-sm">
+            <div class="certificate-card h-100 shadow-sm g-5">
                 <div class="card-body">
                     <img src="{{ asset('images/certificate-1.jpg') }}" class="img-fluid rounded mb-3" alt="Certificate Image">
                     <h5 class="card-title">Hale Cinnamon</h5>
@@ -306,7 +306,7 @@
             </div>
         </div>
         <div class="col-md-4 mb-4">
-            <div class="certificate-card h-100 shadow-sm">
+            <div class="certificate-card h-100 shadow-sm g-5">
                 <div class="card-body">
                     <img src="{{ asset('images/certificate-1.jpg') }}" class="img-fluid rounded mb-3" alt="Certificate Image">
                     <h5 class="card-title">Hale Cinnamon</h5>
@@ -315,7 +315,7 @@
             </div>
         </div>
         <div class="col-md-4 mb-4">
-            <div class="certificate-card h-100 shadow-sm">
+            <div class="certificate-card h-100 shadow-sm g-5">
                 <div class="card-body">
                     <img src="{{ asset('images/certificate-1.jpg') }}" class="img-fluid rounded mb-3" alt="Certificate Image">
                     <h5 class="card-title">Hale Cinnamon</h5>
@@ -324,7 +324,7 @@
             </div>
         </div>
         <div class="col-md-4 mb-4">
-            <div class="certificate-card h-100 shadow-sm">
+            <div class="certificate-card h-100 shadow-sm g-5">
                 <div class="card-body">
                     <img src="{{ asset('images/certificate-1.jpg') }}" class="img-fluid rounded mb-3" alt="Certificate Image">
                     <h5 class="card-title">Hale Cinnamon</h5>
@@ -333,7 +333,7 @@
             </div>
         </div>
         <div class="col-md-4 mb-4">
-            <div class="certificate-card h-100 shadow-sm">
+            <div class="certificate-card h-100 shadow-sm g-5">
                 <div class="card-body">
                     <img src="{{ asset('images/certificate-1.jpg') }}" class="img-fluid rounded mb-3" alt="Certificate Image">
                     <h5 class="card-title">Hale Cinnamon</h5>
@@ -342,7 +342,7 @@
             </div>
         </div>
         <div class="col-md-4 mb-4">
-            <div class="certificate-card h-100 shadow-sm">
+            <div class="certificate-card h-100 shadow-sm g-5">
                 <div class="card-body">
                     <img src="{{ asset('images/certificate-1.jpg') }}" class="img-fluid rounded mb-3" alt="Certificate Image">
                     <h5 class="card-title">Hale Cinnamon</h5>

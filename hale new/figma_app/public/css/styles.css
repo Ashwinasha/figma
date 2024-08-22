@@ -26,8 +26,11 @@
 }
 
 .custom-card-height {
-    height: 250px; /* Adjust height as needed */
-    width:400px
+    height: 300px; /* Adjust height as needed */
+}
+
+.custom-card-width{
+  width: 200px;
 }
 
 .card {
@@ -199,4 +202,90 @@
   font-weight: bold;
   margin-top: 10px; /* Reduced margin */
   font-size: 0.9rem; /* Slightly smaller author name */
+}
+
+.btn-custom-grey {
+  background-color: grey; /* Set button background color to grey */
+  border-color: grey; /* Set button border color to grey */
+  color: white; /* Set text color to white for contrast */
+}
+
+/* Add hover and focus styles if needed */
+.btn-custom-grey:hover,
+.btn-custom-grey:focus {
+  background-color: darkgrey; /* Darker grey on hover */
+  border-color: darkgrey; /* Darker grey border on hover */
+  color: white; /* Ensure text color remains white */
+}
+
+/* For custom-card-height */
+.custom-card-height {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.custom-card-height:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* For fixed-size-card */
+.fixed-size-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.fixed-size-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* For certificate-card */
+.certificate-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.certificate-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* For product-card */
+.product-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Navbar link hover effect */
+.navbar-nav .nav-link {
+  transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #007bff; /* Change to desired hover color */
+  text-decoration: underline; /* Optional underline on hover */
+}
+
+/* Cart icon hover effect */
+.top-bar .fa-shopping-cart {
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.top-bar .fa-shopping-cart:hover {
+  color: #007bff; /* Change to desired hover color */
+  transform: scale(1.1); /* Slightly enlarge the icon on hover */
+}
+
+/* Cart button hover effect */
+.top-bar .btn-outline-dark:hover {
+  background-color: #007bff; /* Change to desired background color on hover */
+  color: #fff; /* Change text color on hover */
+  border-color: #007bff; /* Change border color on hover */
+}
+
+section{
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
