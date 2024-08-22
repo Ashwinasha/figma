@@ -114,32 +114,32 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div class="row justify-content-center align-items-center g-5">
-                            <div class="col-12 col-md-4 col-lg-2">
-                                <div class="card custom-card-height w-100">
+                            <div class="col-8 col-sm-6 col-md-4 col-lg-2">
+                                <div class="card custom-card-height w-100 mx-auto">
                                     <div class="circle">
                                         <img src="{{ asset('images/1.jpg') }}" class="img-fluid rounded-circle" alt="Product Image 1">
                                     </div>
                                     <p class="mt-3">Product</p>
                                 </div>
                             </div>
-                            <div class="col-12 col-md-4 col-lg-2">
-                                <div class="card custom-card-height w-100">
+                            <div class="col-8 col-sm-6 col-md-4 col-lg-2">
+                                <div class="card custom-card-height w-100 mx-auto">
                                     <div class="circle">
                                         <img src="{{ asset('images/2.webp') }}" class="img-fluid rounded-circle" alt="Product Image 2">
                                     </div>
                                     <p class="mt-3">Product</p>
                                 </div>
                             </div>
-                            <div class="col-12 col-md-4 col-lg-2">
-                                <div class="card custom-card-height w-100">
+                            <div class="col-8 col-sm-6 col-md-4 col-lg-2">
+                                <div class="card custom-card-height w-100 mx-auto">
                                     <div class="circle">
                                         <img src="{{ asset('images/cp.png') }}" class="img-fluid rounded-circle" alt="Product Image 3">
                                     </div>
                                     <p class="mt-3">Product</p>
                                 </div>
                             </div>
-                            <div class="col-12 col-md-4 col-lg-2">
-                                <div class="card custom-card-height w-100">
+                            <div class="col-8 col-sm-6 col-md-4 col-lg-2">
+                                <div class="card custom-card-height w-100 mx-auto">
                                     <div class="circle">
                                         <img src="{{ asset('images/1.jpg') }}" class="img-fluid rounded-circle" alt="Product Image 4">
                                     </div>
@@ -150,32 +150,32 @@
                     </div>
                     <div class="carousel-item">
                         <div class="row justify-content-center align-items-center g-5">
-                            <div class="col-12 col-md-3 col-lg-2">
-                                <div class="card custom-card-height w-100">
+                            <div class="col-8 col-sm-6 col-md-4 col-lg-2">
+                                <div class="card custom-card-height w-100 mx-auto">
                                     <div class="circle">
                                         <img src="{{ asset('images/2.webp') }}" class="img-fluid rounded-circle" alt="Product Image 5">
                                     </div>
                                     <p class="mt-3">Product</p>
                                 </div>
                             </div>
-                            <div class="col-12 col-md-3 col-lg-2">
-                                <div class="card custom-card-height w-100">
+                            <div class="col-8 col-sm-6 col-md-4 col-lg-2">
+                                <div class="card custom-card-height w-100 mx-auto">
                                     <div class="circle">
                                         <img src="{{ asset('images/cp.png') }}" class="img-fluid rounded-circle" alt="Product Image 6">
                                     </div>
                                     <p class="mt-3">Product</p>
                                 </div>
                             </div>
-                            <div class="col-12 col-md-3 col-lg-2">
-                                <div class="card custom-card-height w-100">
+                            <div class="col-8 col-sm-6 col-md-4 col-lg-2">
+                                <div class="card custom-card-height w-100 mx-auto">
                                     <div class="circle">
                                         <img src="{{ asset('images/1.jpg') }}" class="img-fluid rounded-circle" alt="Product Image 7">
                                     </div>
                                     <p class="mt-3">Product</p>
                                 </div>
                             </div>
-                            <div class="col-12 col-md-3 col-lg-2">
-                                <div class="card custom-card-height w-100">
+                            <div class="col-8 col-sm-6 col-md-4 col-lg-2">
+                                <div class="card custom-card-height w-100 mx-auto">
                                     <div class="circle">
                                         <img src="{{ asset('images/2.webp') }}" class="img-fluid rounded-circle" alt="Product Image 8">
                                     </div>
@@ -200,75 +200,90 @@
 
 
 
+
+
 <section>
-  <div class="container mt-5 my-5">
-    <div class="text-center mb-5">
-      <h6 class="text-muted">Review</h6>
-      <h2 class="fw-bold">Customer Review</h2>
-    </div>
-
-    <div id="customCarousel" class="carousel slide">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <div class="d-flex justify-content-center">
-            <div class="testimonial-card border rounded p-3 bg-white shadow-sm d-flex align-items-center me-3">
-              <img src="https://www.shutterstock.com/image-vector/people-person-icon-modern-flat-600nw-1691909635.jpg" class="testimonial-card-img rounded-circle me-3" alt="Profile Picture">
-              <div>
-                <p class="testimonial-card-text mb-0">
-                  Hale Cinnamon 1 receives positive customer reviews for its premium quality spices, appreciated for their rich aroma and authentic flavor. Customers highlight the freshness and consistent taste of the products, praising the brand for reliable service and eco-friendly packaging.
-                </p>
-                <div class="testimonial-card-author fw-bold mt-2">Varsha Adhikari</div>
-              </div>
-            </div>
-
-            <div class="testimonial-card border rounded p-3 bg-white shadow-sm d-flex align-items-center me-3">
-              <img src="https://www.shutterstock.com/image-vector/people-person-icon-modern-flat-600nw-1691909635.jpg" class="testimonial-card-img rounded-circle me-3" alt="Profile Picture">
-              <div>
-                <p class="testimonial-card-text mb-0">
-                  Hale Cinnamon 2 receives positive customer reviews for its premium quality spices, appreciated for their rich aroma and authentic flavor. Customers highlight the freshness and consistent taste of the products, praising the brand for reliable service and eco-friendly packaging.
-                </p>
-                <div class="testimonial-card-author fw-bold mt-2">Varsha Adhikari</div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="carousel-item">
-          <div class="d-flex justify-content-center">
-            <div class="testimonial-card border rounded p-3 bg-white shadow-sm d-flex align-items-center me-3">
-              <img src="https://www.shutterstock.com/image-vector/people-person-icon-modern-flat-600nw-1691909635.jpg" class="testimonial-card-img rounded-circle me-3" alt="Profile Picture">
-              <div>
-                <p class="testimonial-card-text mb-0">
-                  Hale Cinnamon 3 receives positive customer reviews for its premium quality spices, appreciated for their rich aroma and authentic flavor. Customers highlight the freshness and consistent taste of the products, praising the brand for reliable service and eco-friendly packaging.
-                </p>
-                <div class="testimonial-card-author fw-bold mt-2">Varsha Adhikari</div>
-              </div>
-            </div>
-
-            <div class="testimonial-card border rounded p-3 bg-white shadow-sm d-flex align-items-center me-3">
-              <img src="https://www.shutterstock.com/image-vector/people-person-icon-modern-flat-600nw-1691909635.jpg" class="testimonial-card-img rounded-circle me-3" alt="Profile Picture">
-              <div>
-                <p class="testimonial-card-text mb-0">
-                  Hale Cinnamon 4 receives positive customer reviews for its premium quality spices, appreciated for their rich aroma and authentic flavor. Customers highlight the freshness and consistent taste of the products, praising the brand for reliable service and eco-friendly packaging.
-                </p>
-                <div class="testimonial-card-author fw-bold mt-2">Varsha Adhikari</div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Add more carousel items with two cards each as needed -->
+  <div class="container mt-5">
+    <div class="container-fluid text-center my-5 px-0 mt-3 my-5">
+      <div class="text-center my-5">
+        <h6 class="text-muted">Review</h6>
+        <h2 class="fw-bold">Customer Reviews</h2>
       </div>
-
-      <button class="btn btn-primary position-absolute top-50 start-0 translate-middle-y" type="button" data-bs-target="#customCarousel" data-bs-slide="prev">
-        &#10094;
-      </button>
-      <button class="btn btn-primary position-absolute top-50 end-0 translate-middle-y" type="button" data-bs-target="#customCarousel" data-bs-slide="next">
-        &#10095;
-      </button>
+      <div id="testimonialCarousel" class="carousel slide">
+        <div class="carousel-inner">
+          <!-- First Item -->
+          <div class="carousel-item active">
+            <div class="row justify-content-center">
+              <div class="col-md-8">
+                <div class="card fixed-size-card">
+                  <div class="row g-0">
+                    <div class="col-md-3 d-flex align-items-center justify-content-center">
+                      <div class="testimonial-image">
+                        <img src="{{ asset('images/1.jpg') }}" alt="testimonial image" class="img-fluid rounded-circle">
+                      </div>
+                    </div>
+                    <div class="col-md-9">
+                      <div class="card-body">
+                        <blockquote class="blockquote">
+                          <p class="mb-4">
+                            <i class="fas fa-quote-left"></i>
+                            Hale Cinnamon receives positive customer reviews for its premium quality spices, appreciated for their rich aroma and authentic flavor. Customers highlight the freshness and consistent taste of the products, praising the brand for reliable service and eco-friendly packaging.
+                            <i class="fas fa-quote-right"></i>
+                          </p>
+                        </blockquote>
+                        <p class="testimonial-author">Varsha Adhikari</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Second Item -->
+          <div class="carousel-item">
+            <div class="row justify-content-center">
+              <div class="col-md-8">
+                <div class="card fixed-size-card">
+                  <div class="row g-0">
+                    <div class="col-md-3 d-flex align-items-center justify-content-center">
+                      <div class="testimonial-image">
+                        <img src="{{ asset('images/2.webp') }}" alt="testimonial image" class="img-fluid rounded-circle">
+                      </div>
+                    </div>
+                    <div class="col-md-9">
+                      <div class="card-body">
+                        <blockquote class="blockquote">
+                          <p class="mb-4">
+                            <i class="fas fa-quote-left"></i>
+                            Hale Cinnamon receives positive customer latest and fast reviews for its premium quality spices, appreciated for their rich aroma and authentic flavor. Customers highlight the freshness and consistent taste of the products, praising the brand for reliable service and eco-friendly packaging.
+                            <i class="fas fa-quote-right"></i>
+                          </p>
+                        </blockquote>
+                        <p class="testimonial-author">Jane Doe</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Add more carousel-item blocks as needed -->
+        </div>
+        <button class="btn btn-primary position-absolute top-50 start-0 translate-middle-y" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+          &#10094; <!-- Left arrow -->
+        </button>
+        <button class="btn btn-primary position-absolute top-50 end-0 translate-middle-y" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+          &#10095; <!-- Right arrow -->
+        </button>
+      </div>
     </div>
   </div>
 </section>
+
+
+
+
+
 
 
 
