@@ -3,78 +3,87 @@
 @section('content')
 
 
-
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" style="height: 80vh; position: relative; z-index: 2;">
-        <!-- Carousel Indicators -->
-        <div class="carousel-indicators-container">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
-            </div>
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000" style="height: 80vh; position: relative; z-index: 2;">
+    <!-- Carousel Indicators -->
+    <div class="carousel-indicators-container">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
         </div>
-
-        <!-- Carousel Inner -->
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="{{ asset('images/slide-1.jpg') }}" class="d-block w-100" alt="Slide 1" style="height: 80vh; object-fit: cover;">
-                <div class="carousel-caption d-flex justify-content-center align-items-center" style="height: 80vh;">
-                    <div class="text-center">
-                        <h1>Hale Nature offers eco-friendly,<br> natural products</h1>
-                        <a href="#" class="btn btn-dark rounded-pill mt-3">View Product</a>
-                    </div>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="{{ asset('images/slide-2.jpg') }}" class="d-block w-100" alt="Slide 2" style="height: 80vh; object-fit: cover;">
-                <div class="carousel-caption d-flex justify-content-center align-items-center" style="height: 80vh;">
-                    <div class="text-center">
-                        <h1>Hale Nature offers eco-friendly,<br> natural products</h1>
-                        <a href="#" class="btn btn-dark rounded-pill mt-3">View Product</a>
-                    </div>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="{{ asset('images/cinnamon1.jpg') }}" class="d-block w-100" alt="Slide 3" style="height: 80vh; object-fit: cover;">
-                <div class="carousel-caption d-flex justify-content-center align-items-center" style="height: 80vh;">
-                    <div class="text-center">
-                        <h1>Hale Nature offers eco-friendly,<br> natural products</h1>
-                        <a href="#" class="btn btn-dark rounded-pill mt-3">View Product</a>
-                    </div>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="{{ asset('images/cinnamon2.jpg') }}" class="d-block w-100" alt="Slide 4" style="height: 80vh; object-fit: cover;">
-                <div class="carousel-caption d-flex justify-content-center align-items-center" style="height: 80vh;">
-                    <div class="text-center">
-                        <h1>Hale Nature offers eco-friendly,<br> natural products</h1>
-                        <a href="#" class="btn btn-dark rounded-pill mt-3">View Product</a>
-                    </div>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="{{ asset('images/cinnamon.jpg') }}" class="d-block w-100" alt="Slide 5" style="height: 80vh; object-fit: cover;">
-                <div class="carousel-caption d-flex justify-content-center align-items-center" style="height: 80vh;">
-                    <div class="text-center">
-                        <h1>Hale Nature offers eco-friendly,<br> natural products</h1>
-                        <a href="#" class="btn btn-dark rounded-pill mt-3">View Product</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Carousel Controls -->
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
     </div>
+
+    <!-- Carousel Inner -->
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <!-- Transparent Overlay -->
+            <div class="overlay"></div>
+            <img src="{{ asset('images/slide-1.jpg') }}" class="d-block w-100" alt="Slide 1" style="height: 80vh; object-fit: cover;">
+            <div class="carousel-caption d-flex justify-content-center align-items-center" style="height: 80vh;">
+                <div class="text-center">
+                    <h1>Hale Nature offers eco-friendly,<br> natural products</h1>
+                    <a href="#" class="btn btn-dark rounded-pill mt-3">View Product</a>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <!-- Transparent Overlay -->
+            <div class="overlay"></div>
+            <img src="{{ asset('images/slide-2.jpg') }}" class="d-block w-100" alt="Slide 2" style="height: 80vh; object-fit: cover;">
+            <div class="carousel-caption d-flex justify-content-center align-items-center" style="height: 80vh;">
+                <div class="text-center">
+                    <h1>Hale Nature offers eco-friendly,<br> natural products</h1>
+                    <a href="#" class="btn btn-dark rounded-pill mt-3">View Product</a>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <!-- Transparent Overlay -->
+            <div class="overlay"></div>
+            <img src="{{ asset('images/cinnamon1.jpg') }}" class="d-block w-100" alt="Slide 3" style="height: 80vh; object-fit: cover;">
+            <div class="carousel-caption d-flex justify-content-center align-items-center" style="height: 80vh;">
+                <div class="text-center">
+                    <h1>Hale Nature offers eco-friendly,<br> natural products</h1>
+                    <a href="#" class="btn btn-dark rounded-pill mt-3">View Product</a>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <!-- Transparent Overlay -->
+            <div class="overlay"></div>
+            <img src="{{ asset('images/cinnamon2.jpg') }}" class="d-block w-100" alt="Slide 4" style="height: 80vh; object-fit: cover;">
+            <div class="carousel-caption d-flex justify-content-center align-items-center" style="height: 80vh;">
+                <div class="text-center">
+                    <h1>Hale Nature offers eco-friendly,<br> natural products</h1>
+                    <a href="#" class="btn btn-dark rounded-pill mt-3">View Product</a>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <!-- Transparent Overlay -->
+            <div class="overlay"></div>
+            <img src="{{ asset('images/cinnamon.jpg') }}" class="d-block w-100" alt="Slide 5" style="height: 80vh; object-fit: cover;">
+            <div class="carousel-caption d-flex justify-content-center align-items-center" style="height: 80vh;">
+                <div class="text-center">
+                    <h1>Hale Nature offers eco-friendly,<br> natural products</h1>
+                    <a href="#" class="btn btn-dark rounded-pill mt-3">View Product</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Carousel Controls -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
 
 
 <section class="mt-5 my-5">
@@ -227,7 +236,7 @@
                         <blockquote class="blockquote">
                           <p class="mb-4">
                             <i class="fas fa-quote-left"></i>
-                            Hale Cinnamon receives positive customer reviews for its premium quality spices, appreciated for their rich aroma and authentic flavor. Customers highlight the freshness and consistent taste of the products, praising the brand for reliable service and eco-friendly packaging.
+                            Hale Cinnamon receives positive customer latest and fast reviews for its premium quality spices, appreciated for their rich aroma and authentic flavor. Customers highlight the freshness and consistent taste of the products, praising the brand for reliable service and eco-friendly packaging.
                             <i class="fas fa-quote-right"></i>
                           </p>
                         </blockquote>
@@ -292,77 +301,76 @@
 
 
 <section>
-<div class="container text-center mt-5 my-5">
-    <h6 class="text-muted text-center">certificate</h6>
-    <h3 class="mb-4">Our Certification</h3>
-    <div class="row">
-        <div class="col-md-4 mb-4">
-            <div class="certificate-card h-100 shadow-sm g-5">
-                <div class="card-body">
-                    <img src="{{ asset('images/certificate-1.jpg') }}" class="img-fluid rounded mb-3" alt="Certificate Image">
-                    <h5 class="card-title">Hale Cinnamon</h5>
-                    <p class="card-text">Hale Nature provides eco-friendly, natural products for a sustainable lifestyle.</p>
+    <div class="container text-center mt-5 my-5">
+        <h6 class="text-muted text-center">Certificate</h6>
+        <h3 class="mb-4">Our Certification</h3>
+        <div class="row mt-5 my-5">
+            <div class="col-md-4 mb-5">
+                <div class="certificate-card h-100 shadow-sm mx-md-3">
+                    <div class="card-body">
+                        <img src="{{ asset('images/certificate-1.jpg') }}" class="img-fluid rounded mb-3" alt="Certificate Image">
+                        <h5 class="card-title">Hale Cinnamon</h5>
+                        <p class="card-text">Hale Nature provides eco-friendly, natural products for a sustainable lifestyle.</p>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="col-md-4 mb-4">
-            <div class="certificate-card h-100 shadow-sm g-5">
-                <div class="card-body">
-                    <img src="{{ asset('images/certificate-1.jpg') }}" class="img-fluid rounded mb-3" alt="Certificate Image">
-                    <h5 class="card-title">Hale Cinnamon</h5>
-                    <p class="card-text">Hale Nature provides eco-friendly, natural products for a sustainable lifestyle.</p>
+            <div class="col-md-4 mb-5">
+                <div class="certificate-card h-100 shadow-sm mx-md-3">
+                    <div class="card-body">
+                        <img src="{{ asset('images/certificate-1.jpg') }}" class="img-fluid rounded mb-3" alt="Certificate Image">
+                        <h5 class="card-title">Hale Cinnamon</h5>
+                        <p class="card-text">Hale Nature provides eco-friendly, natural products for a sustainable lifestyle.</p>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="col-md-4 mb-4">
-            <div class="certificate-card h-100 shadow-sm g-5">
-                <div class="card-body">
-                    <img src="{{ asset('images/certificate-1.jpg') }}" class="img-fluid rounded mb-3" alt="Certificate Image">
-                    <h5 class="card-title">Hale Cinnamon</h5>
-                    <p class="card-text">Hale Nature provides eco-friendly, natural products for a sustainable lifestyle.</p>
+            <div class="col-md-4 mb-5">
+                <div class="certificate-card h-100 shadow-sm mx-md-3">
+                    <div class="card-body">
+                        <img src="{{ asset('images/certificate-1.jpg') }}" class="img-fluid rounded mb-3" alt="Certificate Image">
+                        <h5 class="card-title">Hale Cinnamon</h5>
+                        <p class="card-text">Hale Nature provides eco-friendly, natural products for a sustainable lifestyle.</p>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="col-md-4 mb-4">
-            <div class="certificate-card h-100 shadow-sm g-5">
-                <div class="card-body">
-                    <img src="{{ asset('images/certificate-1.jpg') }}" class="img-fluid rounded mb-3" alt="Certificate Image">
-                    <h5 class="card-title">Hale Cinnamon</h5>
-                    <p class="card-text">Hale Nature provides eco-friendly, natural products for a sustainable lifestyle.</p>
+            <div class="col-md-4 mb-5">
+                <div class="certificate-card h-100 shadow-sm mx-md-3">
+                    <div class="card-body">
+                        <img src="{{ asset('images/certificate-1.jpg') }}" class="img-fluid rounded mb-3" alt="Certificate Image">
+                        <h5 class="card-title">Hale Cinnamon</h5>
+                        <p class="card-text">Hale Nature provides eco-friendly, natural products for a sustainable lifestyle.</p>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="col-md-4 mb-4">
-            <div class="certificate-card h-100 shadow-sm g-5">
-                <div class="card-body">
-                    <img src="{{ asset('images/certificate-1.jpg') }}" class="img-fluid rounded mb-3" alt="Certificate Image">
-                    <h5 class="card-title">Hale Cinnamon</h5>
-                    <p class="card-text">Hale Nature provides eco-friendly, natural products for a sustainable lifestyle.</p>
+            <div class="col-md-4 mb-5">
+                <div class="certificate-card h-100 shadow-sm mx-md-3">
+                    <div class="card-body">
+                        <img src="{{ asset('images/certificate-1.jpg') }}" class="img-fluid rounded mb-3" alt="Certificate Image">
+                        <h5 class="card-title">Hale Cinnamon</h5>
+                        <p class="card-text">Hale Nature provides eco-friendly, natural products for a sustainable lifestyle.</p>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="col-md-4 mb-4">
-            <div class="certificate-card h-100 shadow-sm g-5">
-                <div class="card-body">
-                    <img src="{{ asset('images/certificate-1.jpg') }}" class="img-fluid rounded mb-3" alt="Certificate Image">
-                    <h5 class="card-title">Hale Cinnamon</h5>
-                    <p class="card-text">Hale Nature provides eco-friendly, natural products for a sustainable lifestyle.</p>
+            <div class="col-md-4 mb-5">
+                <div class="certificate-card h-100 shadow-sm mx-md-3">
+                    <div class="card-body">
+                        <img src="{{ asset('images/certificate-1.jpg') }}" class="img-fluid rounded mb-3" alt="Certificate Image">
+                        <h5 class="card-title">Hale Cinnamon</h5>
+                        <p class="card-text">Hale Nature provides eco-friendly, natural products for a sustainable lifestyle.</p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
-
-
 </section>
+
 
 <section>
     <div class="container text-center my-5">
         <h6 class="text-muted text-center">Certificate</h6>
         <h3 class="mb-4">Product</h3>
-        <div class="row">
-            <div class="col-md-3 mb-4">
-                <div class="product-card h-100 shadow-sm">
+        <div class="row mt-5 my-5">
+            <div class="col-md-3 mb-5">
+                <div class="product-card h-100 shadow-sm mx-md-3">
                     <div class="card-body">
                         <img src="{{ asset('images/cp.png') }}" class="img-fluid rounded mb-3" alt="Product Image">
                         <h5 class="card-title">Hale Cinnamon</h5>
@@ -370,8 +378,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 mb-4">
-                <div class="product-card h-100 shadow-sm">
+            <div class="col-md-3 mb-5">
+                <div class="product-card h-100 shadow-sm mx-md-3">
                     <div class="card-body">
                         <img src="{{ asset('images/1.jpg') }}" class="img-fluid rounded mb-3" alt="Product Image">
                         <h5 class="card-title">Hale Cinnamon</h5>
@@ -379,8 +387,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 mb-4">
-                <div class="product-card h-100 shadow-sm">
+            <div class="col-md-3 mb-5">
+                <div class="product-card h-100 shadow-sm mx-md-3">
                     <div class="card-body">
                         <img src="{{ asset('images/2.webp') }}" class="img-fluid rounded mb-3" alt="Product Image">
                         <h5 class="card-title">Hale Cinnamon</h5>
@@ -388,8 +396,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 mb-4">
-                <div class="product-card h-100 shadow-sm">
+            <div class="col-md-3 mb-5">
+                <div class="product-card h-100 shadow-sm mx-md-3">
                     <div class="card-body">
                         <img src="{{ asset('images/1.jpg') }}" class="img-fluid rounded mb-3" alt="Product Image">
                         <h5 class="card-title">Hale Cinnamon</h5>
@@ -400,6 +408,7 @@
         </div>
     </div>
 </section>
+
 
 
 
