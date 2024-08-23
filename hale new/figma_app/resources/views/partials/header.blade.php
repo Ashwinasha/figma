@@ -1,6 +1,8 @@
 <header>
     <div class="top-bar p-3">
-        <a href="#" class="btn btn-outline-dark rounded-pill">Login/Register</a>
+        <a href="#" class="btn btn-outline-dark rounded-pill">
+            <i class="fas fa-user"></i> Login/Register
+        </a>
         <a href="#" class="text-dark">
             <i class="fas fa-shopping-cart me-3"></i>
         </a>

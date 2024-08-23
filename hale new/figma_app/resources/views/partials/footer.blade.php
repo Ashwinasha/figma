@@ -34,12 +34,13 @@
       <!-- Newsletter -->
       <div class="col-md-3 mb-3">
         <h5>Know The Latest News</h5>
-        <form class="d-flex justify-content-center mb-3">
+        <form class="d-flex justify-content-center mb-3" id="newsletter-form" action="https://script.google.com/macros/s/AKfycbzbKA1H0zo-UwwbJjEaqP_EtqN1p0pYoBCrcKH8TnA1LrZnu8hHFmutMzLUIGj-ygUxJQ/exec">
           <div class="input-group">
-            <input type="email" class="form-control text-center" placeholder="Enter your email">
-            <button class="btn btn-dark">More Update</button>
+            <input type="email" class="form-control text-center" name="email" placeholder="Enter your email" required>
+            <button class="btn btn-dark" type="submit">More Update</button>
           </div>
         </form>
+        <div id="response-message" class="text-center mt-3"></div>
         <div class="text-end">
           <button class="btn btn-outline-dark rounded-pill" style="width: 200px;">
             <i class="fas fa-envelope me-2"></i> Live Chat

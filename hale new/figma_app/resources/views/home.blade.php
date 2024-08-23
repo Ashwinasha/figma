@@ -116,86 +116,92 @@
 
 <section>
     <div class="container mt-5 my-5">
-        <div class="container-fluid text-center my-5 px-0 mt-3 my-5">
+        <div class="container-fluid text-center my-5 px-0 mt-3">
             <h6 class="text-muted">Categories</h6>
             <h2 class="fw-bold">Product Categories</h2>
-            <div id="product-carousel" class="carousel slide mt-5 my-5">
+            <div id="product-carousel" class="carousel slide mt-5 my-5 position-relative">
                 <div class="carousel-inner">
+                    <!-- First Item -->
                     <div class="carousel-item active">
-                        <div class="row justify-content-center align-items-center g-5">
-                            <div class="col-8 col-sm-6 col-md-4 col-lg-2">
-                                <div class="card custom-card-height custom-card-width mx-auto">
-                                    <div class="circle">
-                                        <img src="{{ asset('images/1.jpg') }}" class="img-fluid rounded-circle" alt="Product Image 1">
+                        <div class="container">
+                            <div class="row justify-content-center g-4">
+                                <div class="col-6 col-sm-4 col-md-3">
+                                    <div class="card d-flex flex-column align-items-center product-card">
+                                        <div class="circle">
+                                            <img src="{{ asset('images/1.jpg') }}" class="circle img-fluid" alt="Product Image 1">
+                                        </div>
+                                        <p class="mt-3">Product</p>
                                     </div>
-                                    <p class="mt-3">Product</p>
                                 </div>
-                            </div>
-                            <div class="col-8 col-sm-6 col-md-4 col-lg-2">
-                                <div class="card custom-card-height custom-card-width mx-auto">
-                                    <div class="circle">
-                                        <img src="{{ asset('images/2.webp') }}" class="img-fluid rounded-circle" alt="Product Image 2">
+                                <div class="col-6 col-sm-4 col-md-3">
+                                    <div class="card d-flex flex-column align-items-center product-card">
+                                        <div class="circle">
+                                            <img src="{{ asset('images/2.webp') }}" class="circle img-fluid" alt="Product Image 2">
+                                        </div>
+                                        <p class="mt-3">Product</p>
                                     </div>
-                                    <p class="mt-3">Product</p>
                                 </div>
-                            </div>
-                            <div class="col-8 col-sm-6 col-md-4 col-lg-2">
-                                <div class="card custom-card-height custom-card-width mx-auto">
-                                    <div class="circle">
-                                        <img src="{{ asset('images/cp.png') }}" class="img-fluid rounded-circle" alt="Product Image 3">
+                                <div class="col-6 col-sm-4 col-md-3">
+                                    <div class="card d-flex flex-column align-items-center product-card">
+                                        <div class="circle">
+                                            <img src="{{ asset('images/cp.png') }}" class="circle img-fluid" alt="Product Image 3">
+                                        </div>
+                                        <p class="mt-3">Product</p>
                                     </div>
-                                    <p class="mt-3">Product</p>
                                 </div>
-                            </div>
-                            <div class="col-8 col-sm-6 col-md-4 col-lg-2">
-                                <div class="card custom-card-height custom-card-width mx-auto">
-                                    <div class="circle">
-                                        <img src="{{ asset('images/1.jpg') }}" class="img-fluid rounded-circle" alt="Product Image 4">
+                                <div class="col-6 col-sm-4 col-md-3">
+                                    <div class="card d-flex flex-column align-items-center product-card">
+                                        <div class="circle">
+                                            <img src="{{ asset('images/1.jpg') }}" class="circle img-fluid" alt="Product Image 4">
+                                        </div>
+                                        <p class="mt-3">Product</p>
                                     </div>
-                                    <p class="mt-3">Product</p>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <!-- Second Item -->
                     <div class="carousel-item">
-                        <div class="row justify-content-center align-items-center g-5">
-                            <div class="col-8 col-sm-6 col-md-4 col-lg-2">
-                                <div class="card custom-card-height custom-card-width mx-auto">
-                                    <div class="circle">
-                                        <img src="{{ asset('images/2.webp') }}" class="img-fluid rounded-circle" alt="Product Image 5">
+                        <div class="container">
+                            <div class="row justify-content-center g-4">
+                                <div class="col-6 col-sm-4 col-md-3">
+                                    <div class="card d-flex flex-column align-items-center product-card">
+                                        <div class="circle">
+                                            <img src="{{ asset('images/2.webp') }}" class="circle img-fluid" alt="Product Image 5">
+                                        </div>
+                                        <p class="mt-3">Product</p>
                                     </div>
-                                    <p class="mt-3">Product</p>
                                 </div>
-                            </div>
-                            <div class="col-8 col-sm-6 col-md-4 col-lg-2">
-                                <div class="card custom-card-height custom-card-width mx-auto">
-                                    <div class="circle">
-                                        <img src="{{ asset('images/cp.png') }}" class="img-fluid rounded-circle" alt="Product Image 6">
+                                <div class="col-6 col-sm-4 col-md-3">
+                                    <div class="card d-flex flex-column align-items-center product-card">
+                                        <div class="circle">
+                                            <img src="{{ asset('images/cp.png') }}" class="circle img-fluid" alt="Product Image 6">
+                                        </div>
+                                        <p class="mt-3">Product</p>
                                     </div>
-                                    <p class="mt-3">Product</p>
                                 </div>
-                            </div>
-                            <div class="col-8 col-sm-6 col-md-4 col-lg-2">
-                                <div class="card custom-card-height custom-card-width mx-auto">
-                                    <div class="circle">
-                                        <img src="{{ asset('images/1.jpg') }}" class="img-fluid rounded-circle" alt="Product Image 7">
+                                <div class="col-6 col-sm-4 col-md-3">
+                                    <div class="card d-flex flex-column align-items-center product-card">
+                                        <div class="circle">
+                                            <img src="{{ asset('images/1.jpg') }}" class="circle img-fluid" alt="Product Image 7">
+                                        </div>
+                                        <p class="mt-3">Product</p>
                                     </div>
-                                    <p class="mt-3">Product</p>
                                 </div>
-                            </div>
-                            <div class="col-8 col-sm-6 col-md-4 col-lg-2">
-                                <div class="card custom-card-height custom-card-width mx-auto">
-                                    <div class="circle">
-                                        <img src="{{ asset('images/2.webp') }}" class="img-fluid rounded-circle" alt="Product Image 8">
+                                <div class="col-6 col-sm-4 col-md-3">
+                                    <div class="card d-flex flex-column align-items-center product-card">
+                                        <div class="circle">
+                                            <img src="{{ asset('images/2.webp') }}" class="circle img-fluid" alt="Product Image 8">
+                                        </div>
+                                        <p class="mt-3">Product</p>
                                     </div>
-                                    <p class="mt-3">Product</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <!-- Add more carousel-items as needed -->
                 </div>
 
+                <!-- Navigation Buttons -->
                 <button class="btn btn-custom-grey position-absolute top-50 start-0 translate-middle-y" type="button" data-bs-target="#product-carousel" data-bs-slide="prev">
                     &#10094;
                 </button>
@@ -209,8 +215,6 @@
 
 
 
-
-
 <section>
   <div class="container mt-5">
     <div class="container-fluid text-center my-5 px-0 mt-3 my-5">
@@ -218,12 +222,12 @@
         <h6 class="text-muted">Review</h6>
         <h2 class="fw-bold">Customer Reviews</h2>
       </div>
-      <div id="testimonialCarousel" class="carousel slide">
+      <div id="testimonialCarouselId" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
         <div class="carousel-inner">
           <!-- First Item -->
           <div class="carousel-item active">
-            <div class="row justify-content-center">
-              <div class="col-md-8">
+            <div class="row g-4 justify-content-center">
+              <div class="col-md-6">
                 <div class="card fixed-size-card">
                   <div class="row g-0">
                     <div class="col-md-3 d-flex align-items-center justify-content-center">
@@ -234,24 +238,19 @@
                     <div class="col-md-9">
                       <div class="card-body">
                         <blockquote class="blockquote">
-                          <p class="mb-4">
+                          <p class="mb-4 text-justify">
                             <i class="fas fa-quote-left"></i>
                             Hale Cinnamon receives positive customer latest and fast reviews for its premium quality spices, appreciated for their rich aroma and authentic flavor. Customers highlight the freshness and consistent taste of the products, praising the brand for reliable service and eco-friendly packaging.
                             <i class="fas fa-quote-right"></i>
                           </p>
                         </blockquote>
-                        <p class="testimonial-author">Varsha Adhikari</p>
+                        <p class="testimonial-author text-start">Varsha Adhikari</p>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-          <!-- Second Item -->
-          <div class="carousel-item">
-            <div class="row justify-content-center">
-              <div class="col-md-8">
+              <div class="col-md-6">
                 <div class="card fixed-size-card">
                   <div class="row g-0">
                     <div class="col-md-3 d-flex align-items-center justify-content-center">
@@ -262,13 +261,13 @@
                     <div class="col-md-9">
                       <div class="card-body">
                         <blockquote class="blockquote">
-                          <p class="mb-4">
+                          <p class="mb-4 text-justify">
                             <i class="fas fa-quote-left"></i>
                             Hale Cinnamon receives positive customer latest and fast reviews for its premium quality spices, appreciated for their rich aroma and authentic flavor. Customers highlight the freshness and consistent taste of the products, praising the brand for reliable service and eco-friendly packaging.
                             <i class="fas fa-quote-right"></i>
                           </p>
                         </blockquote>
-                        <p class="testimonial-author">Jane Doe</p>
+                        <p class="testimonial-author text-start">Jane Doe</p>
                       </div>
                     </div>
                   </div>
@@ -276,23 +275,70 @@
               </div>
             </div>
           </div>
-          <!-- Add more carousel-item blocks as needed -->
+          <!-- Second Item -->
+          <div class="carousel-item">
+            <div class="row g-4 justify-content-center">
+              <div class="col-md-6">
+                <div class="card fixed-size-card">
+                  <div class="row g-0">
+                    <div class="col-md-3 d-flex align-items-center justify-content-center">
+                      <div class="testimonial-image">
+                        <img src="{{ asset('images/cinnamon1.jpg') }}" alt="testimonial image" class="img-fluid rounded-circle">
+                      </div>
+                    </div>
+                    <div class="col-md-9">
+                      <div class="card-body">
+                        <blockquote class="blockquote">
+                          <p class="mb-4 text-justify">
+                            <i class="fas fa-quote-left"></i>
+                            Hale Cinnamon receives positive customer latest and fast reviews for its premium quality spices, appreciated for their rich aroma and authentic flavor. Customers highlight the freshness and consistent taste of the products, praising the brand for reliable service and eco-friendly packaging.
+                            <i class="fas fa-quote-right"></i>
+                          </p>
+                        </blockquote>
+                        <p class="testimonial-author text-start">John Smith</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="card fixed-size-card">
+                  <div class="row g-0">
+                    <div class="col-md-3 d-flex align-items-center justify-content-center">
+                      <div class="testimonial-image">
+                        <img src="{{ asset('images/cinnamon2.jpg') }}" alt="testimonial image" class="img-fluid rounded-circle">
+                      </div>
+                    </div>
+                    <div class="col-md-9">
+                      <div class="card-body">
+                        <blockquote class="blockquote">
+                          <p class="mb-4 text-justify">
+                            <i class="fas fa-quote-left"></i>
+                            Hale Cinnamon receives positive customer latest and fast reviews for its premium quality spices, appreciated for their rich aroma and authentic flavor. Customers highlight the freshness and consistent taste of the products, praising the brand for reliable service and eco-friendly packaging.
+                            <i class="fas fa-quote-right"></i>
+                          </p>
+                        </blockquote>
+                        <p class="testimonial-author text-start">Emily Davis</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Add more carousel-item blocks here if needed -->
         </div>
-        <button class="btn btn-custom-grey position-absolute top-50 start-0 translate-middle-y" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
-          &#10094; <!-- Left arrow -->
+        <!-- Navigation Buttons -->
+        <button class="btn btn-custom-grey position-absolute top-50 start-0 translate-middle-y" type="button" data-bs-target="#testimonialCarouselId" data-bs-slide="prev">
+          &#10094;
         </button>
-        <button class="btn btn-custom-grey position-absolute top-50 end-0 translate-middle-y" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
-          &#10095; <!-- Right arrow -->
+        <button class="btn btn-custom-grey position-absolute top-50 end-0 translate-middle-y" type="button" data-bs-target="#testimonialCarouselId" data-bs-slide="next">
+          &#10095;
         </button>
       </div>
     </div>
   </div>
 </section>
-
-
-
-
-
 
 
 
